@@ -1,18 +1,16 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.dillongrimes.pycharmimagepreviewer</id>
-    <name>PyCharmImagePreviewer Template</name>
+    <name>ImagePreviewer</name>
     <vendor>dillongrimes</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.pycharm.professional</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.dillongrimes.pycharmimagepreviewer.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <runLineMarkerContributor language="HtmlCompatible" implementationClass="com.github.dillongrimes.pycharmimagepreviewer.HTMLLineMarkerContributor"></runLineMarkerContributor>
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.dillongrimes.pycharmimagepreviewer.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
