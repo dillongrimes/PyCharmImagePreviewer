@@ -5,8 +5,10 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
 <!-- Plugin description -->
-Specific for Uline Web Production. Allows quick access to AEM assets on HTML files.
-<!-- Plugin description end -->
+Displays an icon as a line marker for each image asset within HTML files.</br>
+This is designed to make it easy to preview an image url and confirm the image dimensions.</br>
+Disclaimer: Specific to Uline Web Production.
+Please create an issue in GitHub with suggestions to make the plugin more universal.</br><!-- Plugin description end -->
 
 ## Installation
 

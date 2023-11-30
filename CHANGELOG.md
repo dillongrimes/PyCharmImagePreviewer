@@ -8,3 +8,6 @@
 
 ## [0.0.2]
 - Removed PyCharm from plugin.xml as Plugin name
+
+## [0.0.3]
+- Revised description in plugin.xml and README.md
